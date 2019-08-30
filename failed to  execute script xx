@@ -1,0 +1,7 @@
+import sys, os
+if hasattr(sys, 'frozen'):
+    os.environ['PATH'] = sys._MEIPASS + ";" + os.environ['PATH']
+    
+a = os.getcwd()
+s = r'\PyQt5\Qt\bin'
+os.environ['Path'] = os.environ['Path'] + ";" + a + s
